@@ -2,18 +2,22 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 {
+h1,
+h2 {
     font-family: 'DM Serif Display', serif;
+}
+
+h1 {
     font-size: 75px;
 }
 
 h2 {
-    font-family: 'DM Serif Display', serif;
     font-size: 45px;
 }
 
-p {
-    font-family: 'Inter', sans-serif;;
+p,
+a {
+    font-family: 'Inter', sans-serif;
 }
 
 li {
@@ -25,7 +29,6 @@ li {
 
 a {
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
 }
 
 
@@ -130,6 +133,7 @@ header {
     padding-right: 10%;
     padding-top: 3%;
     padding-bottom: 0%;
+    gap: 5%;
 }
 
 .thumbnail {
@@ -148,4 +152,8 @@ header {
     padding-top: 5%;
     grid-template-columns: repeat(3, 200px);
     grid-gap: 20px;
+}
+
+.showcase img {
+    border-radius: 5px;
 }
