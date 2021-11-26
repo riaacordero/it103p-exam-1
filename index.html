@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df8991c74c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="bg-dark row">
@@ -17,7 +18,7 @@
             <ul class="row">
                 <li><a href="#history" class="white">History</a></li>
                 <li><a href="#destinations" class="white">Destinations</a></li>
-                <li><a href="#contact" class="white">Contact</a></li>
+                <li><a href="#contact-section" class="white">Contact</a></li>
             </li>
         </nav>
     </header>
@@ -63,13 +64,18 @@
                 </div>
             </div>
         </div>
-        <div class="contact column" id="contact">
-            <h2>Contact Us</h2>
-            <input type="text" placeholder="Name" class="contact__input">
-            <input type="email" placeholder="Email" class="contact__input">
-            <input type="text" placeholder="Subject" class="contact__input">
-            <textarea placeholder="Message" rows="10" cols="100"></textarea>
-            <input type="submit" value="Submit" class="contact__submit">
+        <div class="main column" id="contact-section">
+            <h2 class="brown-2">
+                <i class="fa fa-plane"></i> Book a trip now:
+            </h2>
+            <p>For travel inquiries, send us a message: exploreuk@email.com</p>
+            <div class="contact column">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="email" placeholder="Email" class="contact__input">
+                <input type="text" placeholder="Subject" class="contact__input">
+                <textarea placeholder="Message" rows="10" cols="100" class="contact__input"></textarea>
+                <input type="submit" value="Submit" class="contact__submit">    
+            </div>
         </div>
     </main>
 </body>
