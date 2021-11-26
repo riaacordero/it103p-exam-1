@@ -16,7 +16,10 @@ h2 {
 }
 
 p,
-a {
+a,
+input,
+textarea,
+button {
     font-family: 'Inter', sans-serif;
 }
 
@@ -35,6 +38,9 @@ nav li a:hover{
     color:#797467
 }
 
+textarea {
+    border-color: #3E3A31;
+}
 
 /* display */
 
@@ -160,4 +166,25 @@ header {
 
 .showcase img {
     border-radius: 5px;
+}
+
+.contact {
+    align-items: baseline;
+    justify-content: center;
+    padding: 5%;
+    gap: 20px;
+}
+
+.contact__input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #3E3A31;
+}
+
+.contact__submit {
+    border-radius: 5vh;
+    background-color: #3E3A31;
+    color: white;
+    border: none;
+    padding: 8px 16px;
 }
