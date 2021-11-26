@@ -149,11 +149,18 @@ nav li {
 }
 
 
-/* header */
+/* header/footer */
 
 header {
     padding: 1.5em;
     justify-content: right;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    background-color: #3E3A31;
+    padding: 1.5em;
 }
 
 
