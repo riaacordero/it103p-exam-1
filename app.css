@@ -49,10 +49,18 @@ nav li a:hover{
 }
 
 .button{
-    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
     background-color: #3E3A31;
+    text-align: center;
+    width: 200px;
 }
 
+.button:hover{
+    background-color: #B1A890;
+}
 textarea {
     border-color: #3E3A31;
 }
@@ -60,7 +68,7 @@ textarea {
 header {
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10%;
 }
 
 header h3 {
